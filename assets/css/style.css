@@ -20,12 +20,15 @@
     height: auto;
   }
  
- .carousel-item img {
-  width: 20%;
-  height: auto;
+ 
+.card img{
+ height: 11em;
 }
+
+
  
 footer a{
  text-decoration: none;
  color:#fff
+ 
 }
