@@ -1,223 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/x-icon" />
-    <meta name="keywords" content="Viajes Chile, Norte de Chile, Sur de Chile"/>
-  <!-- Apertura  Bootstrap CSS -->
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-  rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-  crossorigin="anonymous"/>
-  <!-- Cierre Bootstrap CSS -->
-   <!-- Apertura jQuery -->
-   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-   crossorigin="anonymous"></script>
-    <!-- Cierre jQuery -->
-    <script src="https://kit.fontawesome.com/e72ea05806.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/viajes.svg"
+      type="image/x-icon"
+    />
+    <meta
+      name="keywords"
+      content="Viajes Chile, Norte de Chile, Sur de Chile"
+    />
+    <!-- Apertura  Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Cierre Bootstrap@5.1.3 CSS -->
+
+    <script
+      src="https://kit.fontawesome.com/e72ea05806.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
     <title>Viajes Chile</title>
-    <script src="assets/js/main.js"></script>
-    
-</head>
- <!-- Cierre Head -->
-<body>
+  </head>
+  <!-- Cierre Head -->
+  <body>
     <!-- Apertura Navbar -->
-    
-  <nav class="navbar navbar-expand-lg  navbar-dark fixed-top" style="background-color: transparent;">
-   <div class="container">
-      <a class="navbar-brand" href="#">
-          
-          <p><img  src="assets/img/viajes.svg" alt="Logo Viajes Chile" /> Viajes Chile</p>
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: transparent"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <p>
+            <img src="assets/img/viajes.svg" alt="Logo Viajes Chile" /> Viajes
+            Chile
+          </p>
         </a>
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse   ps-5" id="navbarText"  style="background-color: transparent;">
-           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-             <li class="nav-item  text-center">
-               <a class="nav-link" href="#">Inicio</a>
-             </li>
-             <li class="nav-item  text-center">
-               <a class="nav-link" href="#">Quienes somos</a>
-             </li>
-             <li class="nav-item   text-center">
-              <a class="nav-link" href="destacados">Destacados</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse ps-5"
+          id="navbarText"
+          style="background-color: transparent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item text-center">
+              <a class="nav-link text-white" href="#beginning">Inicio</a>
             </li>
-             <li class="nav-item   text-center">
-               <a class="nav-link" href="#">Contacto</a>
-             </li>
-           </ul>
-       </div>
-   </div>
-  </nav>
-       <!-- Cierre nav -->
-           <!-- Apertura Carousel -->
-           <section>
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Foto de alpacas en su habitad natural">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <img src="assets/img/carousel2.jpg" class="d-block  w-100" alt="Foto de Moáis en puesta de sol">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/carousel3.jpg" class="d-block  w-100" alt="Foto de ave tipo pinguino">
-                </div>
+            <li class="nav-item text-center">
+              <a class="nav-link text-white" href="#whoarewe">Quienes somos</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link text-white" href="#outstanding">Destacados</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link text-white" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Cierre nav -->
+    <!-- Apertura Carousel -->
+    <section id="beginning">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="Foto de alpacas en su habitad natural"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="Foto de Moáis en puesta de sol"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="Foto de ave tipo pinguino"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Cierre Carousel -->
+    <!-- Apertura Quienes somos -->
+    <section
+      id="whoarewe"
+      class="
+        container
+        text-center text-white
+        py-5
+        d-*-none.d-*-* d-none d-md-block
+      "
+    >
+      <div class="mb-5">
+        <h5 class="text-uppercase">¿Quiénes somos?</h5>
+        <hr class="bg-info opacity-75" />
+      </div>
+      <div>
+        <div class="row">
+          <div
+            class="col-12 col-sm-4 col-md-4 my-3 container accordion"
+            id="accordionPanelsStayOpenExample"
+          >
+            <div class="border-0 accordion-item">
+              <div
+                class="bg-info accordion-header"
+                id="panelsStayOpen-headingOne"
+              >
+                <button
+                  class="accordion-button bg-info ms-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Viajes en avión"
+                >
+                  <i class="fas fa-plane fs-4 text-white mx-auto ps-5"></i>
+                </button>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+
+              <div
+                class="card-body bg-black text-white text-start ps-0"
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <p class="card-text bg-black accordion-body pt-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse.
+                </p>
+              </div>
             </div>
-           </section>
-              <!-- Cierre Carousel -->
-              <!-- Apertura Quienes somos -->
-              <section class="container text-center text-white py-5  d-*-none.d-*-* d-none d-md-block">
-                <div class="mb-5">
-                  <h5 class="text-uppercase ">¿Quiénes somos? </h5>
-                  <hr class="bg-info  opacity-75 ">
-                </div>
-                <div class="container">
-                  <div class="row">
-                    
-                    <div class="col-12 col-sm-4 col-md-4 my-3">
-                      <div class=" border-0">
-                        <div class="bg-info"><i class="fas fa-plane fs-4 mt-1"></i></div>
-                        
-                        <div class="card-body  text-white text-start ps-0">
-                        <p class="card-text bg-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse.</div>
-                      </div>
-                    </div>
-                    <div class="col-12 col-sm-4 col-md-4 my-3">
-                      <div class=" border-0">
-                        <div class="card-body  text-white text-start ps-0 pt-0">
-                        <p class="card-text bg-black ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse.</div>
-                          <div class="bg-info"><i class="fas fa-mountain fs-4 mt-1"></i></div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 col-md-4 my-3">
-                      <div class=" border-0">
-                        <div class="bg-info"><i class="fas fa-route fs-4 mt-1"></i></div>
-                        
-                        <div class="card-body  text-white text-start ps-0">
-                        <p class="card-text bg-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          </div>
+          <div
+            class="col-12 col-sm-4 col-md-4 my-3 container accordion"
+            id="accordionPanelsStayOpenExample"
+          >
+            <div class="border-0 accordion-item">
+              <div
+                class="card-body text-white text-start bg-black pt-0 ps-0 pb-0"
+                id="panelsStayThree-collapseThree"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayThree-headingThree"
+              >
+                <p class="card-text bg-black accordion-body pt-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse.
+                </p>
+              </div>
 
-              </section>
-              <!-- Cierre Quienes somos -->
+              <div
+                class="bg-info bg-info accordion-header"
+                id="panelsStayThree-headingThree"
+              >
+                <button
+                  class="accordion-button bg-info ms-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayThree-collapseThree"
+                  aria-expanded="true"
+                  aria-controls="panelsStayThree-collapseThree"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Viajes a la montaña"
+                >
+                  <i class="fas fa-mountain fs-4 text-white mx-auto ps-5"></i>
+                </button>
+              </div>
+            </div>
+          </div>
 
-              <!-- Apertura Cards Destacados -->
-              <section class="container text-center text-white py-5">
-                <div class="mb-5">
-                  <a href="#destacados"><h5 class="text-uppercase ">  Destacados</h5></a>
-                  <hr class="bg-info  opacity-75 ">
-                </div>
-                <div class="container">
-                  <div class="row">
-                    
-                    <div class="col-12  col-md-3 my-3">
-                      <div class="card bg-info  opacity-75 border-light">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="">
-                        <div class="card-body  text-white text-start">
-                          <div class="card-title ">
-                            Lorem ipsum dolor sit ame
-                          </div>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-3 my-3">
-                      <div class="card bg-info  opacity-75 border-light">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="">
-                        <div class="card-body  text-white text-start">
-                          <div class="card-title ">
-                            Lorem ipsum dolor sit ame
-                          </div>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12  col-md-3 my-3">
-                      <div class="card bg-info  opacity-75 border-light">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="">
-                        <div class="card-body  text-white text-start">
-                          <div class="card-title ">
-                            Lorem ipsum dolor sit ame
-                          </div>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-12 col-md-3 my-3">
-                      <div class="card bg-info  opacity-75 border-light">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="">
-                        <div class="card-body  text-white text-start">
-                          <div class="card-title ">
-                            Lorem ipsum dolor sit ame
-                          </div>
-                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div
+            class="col-12 col-sm-4 col-md-4 my-3 container accordion"
+            id="accordionPanelsStayOpenExample"
+          >
+            <div class="border-0 accordion-item">
+              <div
+                class="bg-info accordion-header"
+                id="panelsStayOpen-headingOne"
+              >
+                <button
+                  class="accordion-button bg-info ms-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayTwo-collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="panelsStayTwo-collapseTwo"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Excursiones"
+                >
+                  <i class="fas fa-route fs-4 text-white mx-auto ps-5"></i>
+                </button>
+              </div>
 
-              </section>
-              <!-- Cierre Cards Destacados -->
+              <div
+                class="card-body bg-black text-white text-start ps-0"
+                id="panelsStayTwo-collapseTwo"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <p class="card-text bg-black accordion-body pt-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Cierre Quienes somos -->
 
+    <!-- Apertura Cards Destacados -->
+    <section id="outstanding" class="container text-center text-white py-5">
+      <div class="mb-5">
+        <h5 class="text-uppercase">Destacados</h5>
+        <h6><span class="badge bg-info">Nuevo</span></h6>
+        <hr class="bg-info opacity-75" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3 my-3">
+            <div class="card bg-info opacity-75 border-light">
+              <img src="assets/img/card1.jpg" class="card-img-top" alt="" />
+              <div class="card-body text-white text-start">
+                <div class="card-title">Lorem ipsum dolor sit ame</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 my-3">
+            <div class="card bg-info opacity-75 border-light">
+              <img src="assets/img/card2.jpg" class="card-img-top" alt="" />
+              <div class="card-body text-white text-start">
+                <div class="card-title">Lorem ipsum dolor sit ame</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 my-3">
+            <div class="card bg-info opacity-75 border-light">
+              <img src="assets/img/card3.jpg" class="card-img-top" alt="" />
+              <div class="card-body text-white text-start">
+                <div class="card-title">Lorem ipsum dolor sit ame</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 my-3">
+            <div class="card bg-info opacity-75 border-light">
+              <img src="assets/img/card4.jpg" class="card-img-top" alt="" />
+              <div class="card-body text-white text-start">
+                <div class="card-title">Lorem ipsum dolor sit ame</div>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Cierre Cards Destacados -->
 
-              <!-- Apertura Contacto -->
-              <section id="Contact" class="container text-center text-white py-5">
-                <div class="mb-5">
-                  <h5 class="text-uppercase ">Contacto</h5>
-                  <hr class="bg-info  opacity-75 ">
-                </div>
-                <div class=" bg-white">
-                  
-                  
-                  <div data-tf-widget="JykYx0QD" data-tf-iframe-props="title=Viaja con nosotros!" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
-               
-                
-                </div>
-               
-              </section>
-               <!-- Cierre Contacto -->
+    <!-- Apertura Contacto -->
+    <section id="contact" class="container text-center text-white py-5">
+      <div class="mb-5">
+        <h5 class="text-uppercase">Contacto</h5>
 
-              <!--Apertura Footer -->
-              <footer class="text-white text-center py-5  bg-info bg-opacity-75">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-12 col-sm-6"> <h2 class=" text-uppercase" >Viajes Chile</h2></div>
-                    <div class="col-12 col-sm-6 ">
-                      <a href="#"><i class="fab fa-github-square fa-2x mx-2 "></i></a>
-                      <a href="#"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
-                      <a href="#"><i class="fab fa-twitter-square  fa-2x mx-2"></i></a>
-                      <a href="#"><i class="fab fa-facebook-square fa-2x mx-2"></i></a>
-                    </div>
+        <hr class="bg-info opacity-75" />
+      </div>
+      <div class="bg-white">
+        <div
+          data-tf-widget="JykYx0QD"
+          data-tf-iframe-props="title=Viaja con nosotros!"
+          style="width: 100%; height: 400px"
+        ></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+      </div>
+    </section>
+    <!-- Cierre Contacto -->
 
-                  </div>
+    <!--Apertura Footer -->
+    <footer class="text-white text-center py-5 bg-info bg-opacity-75">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <h2 class="text-uppercase">Viajes Chile</h2>
+          </div>
+          <div class="col-12 col-sm-6">
+            <a href="#"><i class="fab fa-github-square fa-2x mx-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-2x mx-2"></i></a>
+            <a href="#"><i class="fab fa-facebook-square fa-2x mx-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Cierre Footer -->
 
-                </div>
-              </footer>
-              <!--Cierre Footer -->
-
-            
-       
- <!-- Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-  crossorigin="anonymous"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Apertura jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Cierre jQuery -->
     <!-- Cierre Bootstrap Bundle with Popper -->
-</body>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
